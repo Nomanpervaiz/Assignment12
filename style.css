@@ -1,0 +1,391 @@
+
+@font-face {
+    font-family: public;
+    src: url(font/static/PublicSans-Black.ttf);
+
+    font-family: publicb;
+    src: url(font/static/PublicSans-Bold.ttf);
+
+
+    font-family: dm-mono;
+    src: url(font/DMMono-Regular.ttf);
+
+    font-family: dm-mono-light;
+    src: url(font/DMMono-Light.ttf);
+  
+}
+
+.font-fam{
+    font-family: dm-mono-light;
+    font-size: 12px;
+
+}   
+.fa-solid {
+
+    color: red;
+}
+
+.section-one{
+
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(71, 71, 71, 0.5)),
+        url(nasa-images/nasalady.webp) no-repeat center center/cover;
+
+ }
+
+body {
+    font-family: public;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+/* Navbar work start from here */
+.nasa-logo {
+    /* margin: 0% 20%; */
+    width: 5%;
+    margin-right: 14%;
+    margin-left: 27% !important;
+}
+
+
+.text-color {
+    color: white !important;
+
+}
+
+.font-weight {
+    font-size: 1.1rem !important;
+    font-weight: 900 !important;
+}
+
+.text-black {
+    color: black !important;
+
+}
+
+sup {
+    padding: 0em 1em;
+    border: red solid 2px;
+}
+
+.bgblack {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.bgwhite {
+    background-color: white !important;
+}
+
+.navbar input::placeholder {
+    color: grey !important;
+}
+
+/* section start from here */
+
+
+.home-view {
+    padding-top: 10%;
+    width: 60% !important;
+
+}
+
+.text-view>h1 {
+    width: 100%;
+    font-size: 4.4em;
+    color: white;
+}
+
+.text-view>p {
+    color: white;
+    width: 80%;
+}
+
+.text-view>button {
+    padding: 10px 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(185, 24, 24);
+    color: white;
+}
+
+.home-view2 {
+
+    height: 230px;
+    padding-top: 30pX;
+}
+
+.home-view2 p {
+    word-spacing: 5px;
+    font-size: 0.8em;
+    font-family: dm-mono-light;
+
+
+}
+
+/* News section start from here  */
+
+.font-weight-h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* News Box 1 start from here */
+.news-box1 {
+    margin: 10px 0px;
+    height: 100%;
+}
+
+.news-box1>img {
+    filter: brightness(70%);
+
+}
+
+.text-upper {
+
+    position: relative;
+    bottom: 100%;
+    padding: 0px 6px;
+
+}
+
+.news-release {
+
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-top: 42%;
+
+}
+
+
+.text-upper p {
+    font-family: dm-mono-light;
+    font-size: 0.7em;
+
+}
+
+.main-box {
+    height: 412px !important;
+    margin: 10px 2px !important;
+}
+
+/* News Box 2 start from here Article  */
+.news-box2 {
+    margin: 10px 0px;
+    height: 100% !important;
+}
+
+.news-box2>img {
+    filter: brightness(70%);
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-top: 60%;
+}
+
+.font-weight-h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* News box 3 start from here */
+
+.news-box3 {
+    margin: 10px 0px;
+    height: 100%;
+}
+
+.news {
+    background-color: #fff;
+    margin: 50px;
+}
+
+.heading-news {
+    margin: 4% 0%;
+}
+
+.heading-h6 {
+    display: flex;
+    align-items: center;
+}
+
+.text-upper1 {
+    height: 10px;
+}
+
+.news-release1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+/* Article boxes */
+
+
+.art-box1 {
+    padding: 10px 0px;
+}
+
+.art-box2 {
+    /* border: red 2px solid; */
+    padding: 10px 0px;
+}
+
+.art-box3 {
+    /* border: red 2px solid; */
+    padding: 10px 0px;
+}
+
+.art-box4 {
+    /* border: red 2px solid; */
+    padding: 10px 0px;
+}
+
+.art {
+    /* border: yellow 2px solid !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.art-img>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* border: yellow 2px solid !important; */
+
+}
+
+.art-text {
+    /* border: yellow 2px solid !important; */
+    padding: 10px 0px;
+    
+
+}
+.border{
+    border: red 2px solid;
+    margin-left: 20px;
+}
+
+/* Intership section  */
+
+.section-three{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(71, 71, 71, 0.5)),
+    url(nasa-images/nasa1.jpg) no-repeat center center/cover;
+    height: 700px;
+    /* filter: brightness(0%); */
+}
+.intership-text{
+    color: white;
+    margin-top: 30%;
+
+}
+.intership-text>h1{
+    font-size:4.3rem ;
+    margin-bottom: 12%;
+}
+
+/* section remembrance */
+
+.sp{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rem-img{
+    margin: 2% 0% !important;
+}   
+.rem-text{
+    margin: 8% 0% !important;
+}
+.rem-text>h1{
+    margin-bottom: 10%;
+}
+
+/* universe section */
+
+.section-five{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(71, 71, 71, 0.5)),
+    url(nasa-images/webb-tarantula-neb.png) no-repeat center center/cover;
+    height: 700px;
+
+}
+/* Feature video section */
+.section-six{
+    background-color: black;
+    height: 600px ;
+}
+
+.feature-text{
+    margin-top: 10% !important;
+    color: white;
+
+    
+}
+.feature-video{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4% !important;
+}
+
+/* section seven start from here */
+
+.section-seven{
+    margin-top: 4% ;
+}
+
+.topic-toptext{
+    margin-bottom: 4% ;
+}
+.topic-main{
+    
+    margin: 4% 0%;
+    padding: 0px 40px;
+
+}
+.topic-main img{
+    filter: brightness(50%);    
+}
+
+
+
+
+.nasa-history{
+    /* background-color: red; */
+    position: relative;
+    bottom: 12%;
+    margin: 0px 10px ;
+
+    color: #fff; 
+}
+.human{
+    /* background-color: red; */
+    position: relative;
+    margin: 0px 10px ;
+    bottom: 12%;
+    color: #fff; 
+}
+.value{
+    /* background-color: red; */
+    margin: 0px 10px ;
+    margin: 0px 10px ;
+    position: relative;
+    color: #fff; 
+    bottom: 12%;
+}
+.mission{
+    /* background-color: red; */
+    position: relative;
+    margin: 0px 10px ;
+    color: #fff; 
+    bottom: 12%;
+}
