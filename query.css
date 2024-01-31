@@ -43,11 +43,18 @@
     }
 }
 @media  (min-width:400px) and  (max-width:600px){ 
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .art-main{
-        margin-top: 215%;
+        margin-top: 1150px;
+    }
+    .news-release{
+        margin-top: 200px;       
     }
     .article{
-        margin-top: 30% ;
+        margin-top: 200px ;
     }
     .intership-text>h1{
         font-size: 3rem !important;
@@ -69,23 +76,40 @@
         
     }
 }
-@media  (min-width:600px) and ( max-width:800px) {
-    
+@media  (min-width:766px) and ( max-width:800px){
+    .news-box2{
+        height: 450px !important;
+
+    }
+    .art-main{
+        margin-top: 460px;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+} 
+@media  (min-width:600px) and ( max-width:766px) {
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .section-one{
+        height: 800px;
+    }
     .reverse{
         display: flex;
         flex-direction: row-reverse;
     }
     .home-view{
-        width: 80% !important;
+        width: 100% !important;
         
     }
     .news-release{
-    
         display: flex;
         flex-direction: column;
         height: 30%;
-        margin-top:40%  ;
-        
+        margin-top:270px  ;
     }
     .home-view2{
         margin-bottom:0% !important; 
@@ -108,11 +132,8 @@
         height: 470px !important;
 
     }
-    .main-box{
-        
-    }
     .article{
-        margin-top: 50%;
+        margin-top: 300px;
     }
     .art-main{
         margin-top: 190%;
@@ -121,9 +142,9 @@
 
 }
 @media  (min-width:800px) and (max-width:1000px) {
-    
+   
     .art-main{
-        margin-top: 50%;
+        margin-top: 460px;
     }
     .news-box3-1{
         height: 50%;
@@ -134,7 +155,6 @@
     }
     
     .section-two{
-        /* background-color: green !important; */
         height: 70%;
     }
     .news-release{
@@ -144,10 +164,6 @@
 }
 
 @media  (min-width:1000px) and (max-width:1200px){
-    .nasa-logo{
-        width: 20%;
-
-    }
 
 
     .news-box3-1{
@@ -157,8 +173,25 @@
     .news-box3-2{
         height: 190px !important;
     }
-    .main-box{
-     
-        /* background-color: red; */
+       
+}
+@media  (max-width:991px){
+    .nasa-logo{
+        position: absolute;
+        top: 12px;
+        left:40%;
+        margin: 0px ;
+    }
+    .form-control{
+        display: none;
+    }
+
+    .search-icon{
+        display: initial;
+        width: 40px;
+        margin-left: 0px !important;
+    }
+    .explore{
+        display: none;
     }
 }

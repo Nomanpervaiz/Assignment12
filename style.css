@@ -15,6 +15,9 @@
   
 }
 
+.border{
+    border: red 2px solid !important;
+}
 .font-fam{
     font-family: dm-mono-light;
     font-size: 12px;
@@ -27,8 +30,8 @@
 
 .section-one{
 
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(71, 71, 71, 0.5)),
-        url(nasa-images/nasalady.webp) no-repeat center center/cover;
+      background: linear-gradient(rgba(56, 55, 55, 0.5), rgba(0, 0, 0, 0.5)),
+        url(nasa-images/clps-im-1-nova-c-render-moon.png) no-repeat center center/cover;
 
  }
 
@@ -40,12 +43,15 @@ body {
 
 /* Navbar work start from here */
 .nasa-logo {
-    /* margin: 0% 20%; */
-    width: 5%;
-    margin-right: 14%;
-    margin-left: 27% !important;
+    width: 80px;    
 }
-
+.nasa-logo>img{
+    
+    margin-left: 50px !important;
+}
+.search-icon{
+    display: none;
+}
 
 .text-color {
     color: white !important;
@@ -283,7 +289,7 @@ sup {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(71, 71, 71, 0.5)),
     url(nasa-images/nasa1.jpg) no-repeat center center/cover;
     height: 700px;
-    /* filter: brightness(0%); */
+    
 }
 .intership-text{
     color: white;
@@ -355,6 +361,9 @@ sup {
 .topic-main img{
     filter: brightness(50%);    
 }
+.topi>h1{
+    font-weight: 650;
+}
 
 
 
@@ -388,4 +397,62 @@ sup {
     margin: 0px 10px ;
     color: #fff; 
     bottom: 12%;
+}
+
+/* Footer */
+.footer-one{
+    background-color: black;
+
+}
+.footer-main{
+    padding: 20px;
+}
+
+.foot-logo>img{
+    width: 6%;
+}
+.foot-logo{
+    background-color:black;
+    /* width: 20% !important; */
+    padding: 2% 0px ;
+    margin: 20px 0px;
+    /* margin: 50px 10px; */
+}
+.foot-text1{
+    color: white;
+}
+.foot-text2{
+    color: white;
+}
+.foot-text2{
+    
+}
+.foot-text3{
+    color: white;
+}
+.foot-text4{
+    color: white;
+}
+.foot-text5 img{
+    margin: 10px 0px ;
+}
+.foot-text5{
+    color: white;
+}
+
+.foot>ul>li{
+    list-style: none;
+    line-height: 34px;
+    
+}
+.foot>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.social img{
+    width: 30px;
+    padding: 4px ;
+    height: 20%;
+    border-radius: 50%;
+    
 }
